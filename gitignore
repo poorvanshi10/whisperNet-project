@@ -1,0 +1,46 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments (Very important!)
+venv/
+env/
+.env
+bin/
+lib/
+develop-eggs/
+dist/
+eggs/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+
+# PyTorch / TensorFlow Model Weights
+# (Prevents uploading massive 500MB+ files)
+*.pth
+*.h5
+*.ckpt
+*.pkl
+*.model
+whispernet_gen.pth
+whispernet_disc.pth
+
+# Datasets and Logs
+data/
+datasets/
+logs/
+*.log
+.ipynb_checkpoints/
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE Settings
+.vscode/
+.idea/
+*.swp
