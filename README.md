@@ -1,22 +1,14 @@
-🎭 WhisperNet: Generative Adversarial Network for Secure Data
+🛡️ WhisperNet: Defense-Grade GAN Architecture
+Winner of Medicaps University Ideathon 🏆
 
-**WhisperNet** is an AI-driven project that utilizes **Generative Adversarial Networks (GANs)** to synthesize secure communication patterns. This project was developed as a submission for the Visionx 2.O Ideathon by Startup India, where it secured **1st Place**.
+WhisperNet is an advanced Generative Adversarial Network (GAN) designed for secure, resilient communications in contested environments. In modern electronic warfare, signals are often jammed or spoofed; WhisperNet uses deep learning to reconstruct mission-critical data from high-noise environments.
 
+🛰️ The Problem
+Military units often operate in DENIED environments where traditional communication is intercepted or distorted by adversarial jamming. Traditional filters often fail to distinguish between legitimate signals and "spoofing" attempts.
 
+⚡ The Solution
+WhisperNet employs a competitive training loop to ensure signal integrity:
 
-🚀 Overview
-WhisperNet consists of two neural networks—the **Generator** and the **Discriminator**—competing in a zero-sum game to produce high-fidelity synthetic data.
+The Generator: Acts as a "Signal Restorer," learning to reconstruct clean, actionable data from noisy or jammed inputs.
 
-- **Generator:** Learns to create data that mimics secure communication packets.
-- **Discriminator:** Learns to distinguish between real secure data and the "fake" data created by the generator.
-
-📁 Project Structure
-```text
-WhisperNet-project/
-├── models/
-│   ├── generator.py      # Upgraded architecture with BatchNorm
-│   └── discriminator.py  # Robust architecture with Dropout
-├── data/                 # (Future) Training datasets
-├── train.py              # Main training logic
-├── test.py               # Quick validation script
-└── requirements.txt      # Dependency list
+The Discriminator: Acts as an "Intelligence Validator," trained to detect the difference between a legitimate friendly signal and synthesized adversarial interference.
