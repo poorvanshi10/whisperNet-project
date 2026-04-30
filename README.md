@@ -1,6 +1,6 @@
 🎭 WhisperNet: Generative Adversarial Network for Secure Data
 
-**WhisperNet** is an AI-driven project that utilizes **Generative Adversarial Networks (GANs)** to synthesize secure communication patterns. This project was developed as a submission for the [Your College Name] Ideathon, where it secured **1st Place**.
+**WhisperNet** is an AI-driven project that utilizes **Generative Adversarial Networks (GANs)** to synthesize secure communication patterns. This project was developed as a submission for the Visionx2.O Ideathon, where it secured **1st Place**.
 
 
 
